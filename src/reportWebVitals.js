@@ -8,7 +8,9 @@ const reportWebVitals = (onPerfEntry) => {
         getLCP(onPerfEntry);
         getTTFB(onPerfEntry);
       })
-      .catch(() => {});
+      .catch(() => {
+        console.log('Import of web vitals failed');
+      });
   }
 };
 
