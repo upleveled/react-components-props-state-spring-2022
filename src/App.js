@@ -1,4 +1,5 @@
 import './App.css';
+import ChildrenPropExample from './ChildrenPropExample';
 import ClassComponentsIntoFunctionComponent from './ClassComponentsIntoFunctionComponent';
 import MyComponent from './Components';
 import ConditionalRendering from './ConditionalRendering';
@@ -8,7 +9,10 @@ import EventHandlers from './EventHandlers';
 import LetNotUpdating from './LetNotUpdating';
 import LiftingStateUp from './LiftingStateUp';
 import MapOverArrays from './MapOverArrays';
+import { MyFavoriteAnimals } from './MyFavoriteAnimals';
 import Props from './Props';
+import PropTypesExample from './PropTypesExample';
+import RandomUsers from './RandomUsers';
 import ShowAndDestructure from './ShowAndDestructure';
 import StatefulCounter from './StatefulCounter';
 import StateIsAsync from './StateIsAsync';
@@ -49,9 +53,13 @@ export default function App() {
       <h1>Style vs CSS vs CSS in JS </h1>
       <StyleCssAndCssInJs />
       <br />
+      <ChildrenPropExample />
       <br />
+      <PropTypesExample />
       <br />
+      <MyFavoriteAnimals />
       <br />
+      <RandomUsers />
       <br />
       <br />
       <br />
